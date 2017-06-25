@@ -1,0 +1,35 @@
+
+	h1 {
+    color: 000000;
+	font-family: Helvetica, Arial, Times New Roman;
+	font-size: 70px;
+	}
+	p {
+    color: FFFFFF;
+	font-family: Helvetica, Arial, Times New Roman;
+	font-size: 16px;
+	}
+	.raveTable {
+	background-color: FFFFFF;
+	border: 0px;
+	}
+	.container {
+	width: 100%;
+	display: block;
+	align: center;
+	valign: middle;
+	}
+	.container-fixed {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	.nowplaying {
+	width: 100px;
+	display: inline-block;
+    vertical-align: middle;
+	}
+	.performer {
+	display: inline-block;
+    vertical-align: middle;
+	}
