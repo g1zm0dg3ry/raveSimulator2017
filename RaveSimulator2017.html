@@ -5,7 +5,10 @@
 </head>
 <body style="margin:0;padding:0" id="body">
 <header align="center">
-<h1 style="margin:0;">Rave Simulator 2017</h1>
+<h1 id="title" style="margin:0;">Rave Simulator 2017</h1><br>
+<div class="nowplaying" id="nowplaying" style="display:none;">
+	<span>Now Playing: </span><span id="text1"></span>
+</div>
 <div id="activateRave">
 	<button onclick="gigSelector(); colorChange(); appear(); disappear();">RAVE!</button>
 </div>
@@ -14,10 +17,6 @@
 	<div class="raveTable" id="raveTable">
 				<div class="container">
 					<div class="container-fixed">
-							<div class="nowplaying" id="nowplaying" style="display:none;">
-								<p>Now Playing: </p><p id="text1"></p>
-							</div>
-							
 							<div class="performer">
 								<img width="300" id="performer" src="https://68.media.tumblr.com/2dfc3369827df9b981e111d7fd8fc732/tumblr_mvemcyarmn1rslphyo1_400.gif" style="display:none;">
 							</div>

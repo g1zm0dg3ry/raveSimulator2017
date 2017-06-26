@@ -1,8 +1,8 @@
 	var x = 500000;
 	function colorChange(){
 		do {
-		document.getElementById("raveTable");
-		raveTable.style.backgroundColor = x;
+		document.getElementById("title");
+		title.style.color = x;
 		x++;
 		setTimeout(colorChange, 1);
 		}
@@ -13,8 +13,10 @@
 		performer.style.display = "block";
 		document.getElementById("nowplaying");
 		nowplaying.style.display = "block";
-		document.body.style.background = "transparent";
+		document.body.style.background = "#000000";
 		document.body.style.backgroundImage="url(https://68.media.tumblr.com/4846fd43bd537e81e472a5c42d3c849a/tumblr_oigx91hluw1us554lo1_1280.gif)";
+		document.body.style.backgroundSize = "2400px 1300px";
+		document.body.style.backgroundRepeat = "no-repeat";
 	}
 	function disappear(){
 		document.getElementById("activateRave");
