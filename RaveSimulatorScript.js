@@ -11,6 +11,10 @@
 	function appear(){
 		document.getElementById("performer");
 		performer.style.display = "block";
+		document.getElementById("nowplaying");
+		nowplaying.style.display = "block";
+		document.body.style.background = "transparent";
+		document.body.style.backgroundImage="url(https://68.media.tumblr.com/4846fd43bd537e81e472a5c42d3c849a/tumblr_oigx91hluw1us554lo1_1280.gif)";
 	}
 	function disappear(){
 		document.getElementById("activateRave");

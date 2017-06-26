@@ -1,6 +1,8 @@
-
+	body {
+		background-color: #000000;
+	}
 	h1 {
-    color: 000000;
+    color: #FFFFFF;
 	font-family: Helvetica, Arial, Times New Roman;
 	font-size: 70px;
 	}
