@@ -57,24 +57,24 @@
 	
 	function playMusic(){
 		if (gig == "fall out boy"){
-				document.getElementById('myAudio1').play();
+				document.getElementById('musicItem1').play();
 			}
 			else if (gig == "passion pit"){
-				document.getElementById('myAudio2').play();
+				document.getElementById('musicItem2').play();
 			}
 			else if (gig == "psy"){
-				document.getElementById('myAudio3').play();
+				document.getElementById('musicItem3').play();
 			}
 			else if (gig == "mcr"){
-				document.getElementById('myAudio4').play();
+				document.getElementById('musicItem4').play();
 			}
 	}
 		 		
 	function pauseMusic(){
 		if (gig == "fall out boy" | gig == "passion pit" | gig == "psy" | gig == "mcr"){
-				document.getElementById('myAudio1').pause();
-				document.getElementById('myAudio2').pause();
-				document.getElementById('myAudio3').pause();
-				document.getElementById('myAudio4').pause();
+				document.getElementById('musicItem1').pause();
+				document.getElementById('musicItem2').pause();
+				document.getElementById('musicItem3').pause();
+				document.getElementById('musicItem4').pause();
 		}
 	}
