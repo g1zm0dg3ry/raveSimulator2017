@@ -1,27 +1,41 @@
 <html>
 <head>
-<script src="RaveSimulatorScript.js"></script>
-<link rel="stylesheet" type="text/css" href="RaveSimulatorStyling.css">
+	<script src="RaveSimulatorScript.js"></script>
+	<link rel="stylesheet" type="text/css" href="RaveSimulatorStyling.css">
 </head>
+
 <body style="margin:0;padding:0" id="body">
+
 <header align="center">
-<h1 id="title" style="margin:0;">Rave Simulator 2017</h1><br>
-<div class="nowplaying" id="nowplaying" style="display:none;">
-	<span>Now Playing: </span><span id="text1"></span>
-</div>
-<div id="activateRave">
-	<button onclick="gigSelector(); colorChange(); appear(); disappear();">RAVE!</button>
-</div>
+
+	<h1 id="title" style="margin:0;">Rave Simulator 2017</h1>
+		<br>
+	<div class="nowplaying" id="nowplaying" style="display:none;">
+		<span>Now Playing: </span><span id="text1"></span>
+	</div>
+	<div id="activateRave">
+		<button onclick="gigSelector(); pauseMusic(); playMusic(); colorChange(); appear();">RAVE!</button>
+	</div>
+	
+<!-- sorry for putting these here terrible I know -->
+<audio id="myAudio1" src="http://a.tumblr.com/tumblr_mwg6fzWvYw1rfudy1o1.mp3"></a>
+<audio id="myAudio2" src="https://a.tumblr.com/tumblr_njjj1ePjIu1tu0eilo1.mp3"></a>
+<audio id="myAudio3" src="https://dl.pagal.link/upload_file/5570/6673/7479/Gangnam-Style-PSY-%28Pagalworld.Com%29.mp3"></a>
+<audio id="myAudio4" src="http://k003.kiwi6.com/hotlink/93bw2h3n2u/My_Chemical_Romance_-_I_m_Not_Okay_I_Promise_.mp3"></a>
+<audio id="myAudio5" src="http://www.lowerfrequencies.com/wp-content/uploads/2012/mp3s/07%20Feels%20Like%20We%20Only%20Go%20Backwards.mp3"></a>
+<!-- don't shank meeee -->
+
 </header>
 
-	<div class="raveTable" id="raveTable">
-				<div class="container">
-					<div class="container-fixed">
-							<div class="performer">
-								<img width="300" id="performer" src="https://68.media.tumblr.com/2dfc3369827df9b981e111d7fd8fc732/tumblr_mvemcyarmn1rslphyo1_400.gif" style="display:none;">
-							</div>
-					</div>
+<div class="raveTable" id="raveTable">
+			<div class="container">
+				<div class="container-fixed">
+						<div class="performer">
+							<img width="300" id="performer" src="https://68.media.tumblr.com/2dfc3369827df9b981e111d7fd8fc732/tumblr_mvemcyarmn1rslphyo1_400.gif" style="display:none;">
+						</div>
 				</div>
-	</div>
+			</div>
+</div>
+
 </body>
 </html>
