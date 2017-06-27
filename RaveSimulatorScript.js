@@ -48,11 +48,6 @@
 			performer.src = "https://68.media.tumblr.com/9e9c3f70954ac563e568e0f4001e481a/tumblr_nn4rtmvYmW1r9m88fo1_500.gif";
 			document.getElementById("text1").innerHTML = "MCR";
 		}
-		else {
-			document.getElementById("performer");
-			performer.src = "http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif";
-			document.getElementById("text1").innerHTML = "Tame Impala";
-		}
 	}
 	
 	function playMusic(){
